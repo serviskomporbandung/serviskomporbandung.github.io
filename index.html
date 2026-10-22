@@ -2,77 +2,37 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Servis Kompor Gas Bandung - Gg Samsi 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servis Kompor Gas Bandung</title>
 <style>
-body{margin:0;font-family:Arial;background:#f5f5f5}
-.header{background:#d50000;color:white;text-align:center;padding:20px}
-.tabs{display:flex;background:white;position:sticky;top:0;z-index:99;box-shadow:0 2px 5px #ccc}
-.tab{flex:1;padding:15px;text-align:center;font-weight:bold;cursor:pointer;border-bottom:3px solid transparent}
-.tab.active{border-bottom:3px solid #d50000;color:#d50000}
-.content{padding:15px}
-.card{background:white;border-radius:12px;padding:15px;margin-bottom:15px;box-shadow:0 2px 8px #ddd}
-.btn-wa{display:block;padding:15px;margin:10px 0;text-align:center;color:white;border-radius:10px;text-decoration:none;font-weight:bold}
-.wa-utama{background:#25D366}
-.wa-cad{background:#ff6d00}
-.foto{width:100%;border-radius:10px;margin-bottom:12px;border:1px solid #ddd}
-.galeri{display:none}
-.beranda{display:none}
-.beranda.active{display:block}
-.galeri.active{display:block}
+body{font-family:Arial;margin:0;padding:15px;background:#f5f5f5}
+.card{background:white;padding:15px;border-radius:12px;margin-bottom:15px;box-shadow:0 2px 5px rgba(0,0,0,0.1)}
+.foto{width:100%;border-radius:10px;border:1px solid #ddd;margin-bottom:10px}
+.btn-wa{display:block;background:#25D366;color:white;text-align:center;padding:15px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:18px;margin-top:15px}
 </style>
 </head>
 <body>
-<div class="header">
+
 <h1>SERVIS KOMPOR GAS BANDUNG</h1>
-<p>📍 Gg. Samsi 1, Kebonwaru<br>Buka 08.00-20.00</p>
-</div>
-<div class="tabs">
-<div class="tab active" id="t-beranda" onclick="bukaTab('beranda')">BERANDA</div>
-<div class="tab" id="t-galeri" onclick="bukaTab('galeri')">GALERI</div>
-</div>
-<div class="content">
-<div id="beranda" class="beranda active">
+
 <div class="card">
-<h3>📞 Chat Teknisi Gg. Samsi 1</h3>
-<a class="btn-wa wa-utama" href="https://wa.me/6285781099398">💬 WA UTAMA - 0857-8109-9398</a>
-<a class="btn-wa wa-cad" href="https://wa.me/6283153449348">💬 WA CADANGAN - 0831-5344-9348</a>
+<p>✅ Kompor tidak menyala / api mati<br>✅ Api merah<br>✅ Bau gas</p>
 </div>
-<div class="card">
-<h3>📍 Alamat Bengkel Resmi</h3>
-<p><b>Servis Kompor Gas Bandung</b><br>Gg. Samsi 1, Kebonwaru, Batununggal - Bandung</p>
-<a class="btn-wa" style="background:#0d47a1" href="https://maps.google.com/?q=Gg.+Samsi+1+Kebonwaru+Bandung">📍 BUKA MAPS</a>
-</div>
-<div class="card">
-<h3>🔧 Layanan Lengkap</h3>
-<p>✅ Kompor tidak menyala / api mati<br>✅ Api merah / hitam<br>✅ Bau gas / ngeses<br>✅ Pemantik rusak</p>
-</div>
+
 <div class="card">
 <h3>💰 Harga Jujur</h3>
 <p>Harga Mulai <b>Rp 100.000</b> - Garansi</p>
 </div>
-</div>
-<div id="galeri" class="galeri">
+
 <div class="card">
 <h3>🔧 Hasil Kerja Teknisi Gg. Samsi 1</h3>
-<img class="foto" src="FB_IMG_1792660779913546026.jpg">
-<img class="foto" src="FB_IMG_1792660782481366026.jpg">
-<img class="foto" src="FB_IMG_1792660784744366026.jpg">
-<img class="foto" src="FB_IMG_1792660857635546026.jpg">
-<p style="text-align:center;color:green;font-weight:bold">✅ Profesional & Terpercaya</p>
-<a class="btn-wa wa-utama" href="https://wa.me/6285781099398">💬 PESAN SERVIS SEKARANG</a>
+<img class="foto" src="FB_IMG_1792660779918.jpg">
+<img class="foto" src="FB_IMG_1792660782482.jpg">
+<img class="foto" src="FB_IMG_1792660784746.jpg">
+<img class="foto" src="FB_IMG_1792660857633.jpg">
+<p style="text-align:center;color:green;font-weight:bold">Melayani Seluruh Bandung</p>
+<a class="btn-wa" href="https://wa.me/6281321018953">Chat WhatsApp Sekarang</a>
 </div>
-</div>
-</div>
-<script>
-function bukaTab(n){
-document.getElementById('beranda').classList.remove('active');
-document.getElementById('galeri').classList.remove('active');
-document.getElementById('t-beranda').classList.remove('active');
-document.getElementById('t-galeri').classList.remove('active');
-document.getElementById(n).classList.add('active');
-document.getElementById('t-'+n).classList.add('active');
-}
-</script>
+
 </body>
 </html>
